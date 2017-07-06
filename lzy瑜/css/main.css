@@ -1,0 +1,421 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-size:62.5%;
+}
+.wrap{
+	position:relative;
+	overflow:hidden;
+}
+
+.wrap div{
+	width:100%;
+	height:100%;
+	font-family:"微软雅黑";
+}
+
+/*home*/
+.home{
+	text-align:center;
+	background:#00FFB3;
+}
+.home .myPic{
+	width:12%;
+	border-radius:50%;
+	border:10px solid #CCFFEB;
+	margin-top:5%;
+}
+.home .myName{
+	font-size:50px;
+	font-weight:900;
+	color:#fff;
+	margin-top:0.6%;
+}
+
+.home .motto{
+	font-size:20px;
+	color:#007B7B;
+	font-weight:bold;
+	margin-top:2%;
+}
+.home .myjob{
+	font-size:20px;
+	color:#fff;
+	font-weight:bold;
+	margin-top:0.5%;
+	}
+.home .email{
+	margin-top:30px;
+	color:#fff;
+}
+.home .Tel{
+	margin-top:10px;
+	color:#fff;
+}
+
+/*works*/
+.works{
+	position:relative;
+	background:#00FFB3;
+	}
+.title{
+	position:relative;
+	text-align:center;
+	font-size:55px;
+	padding-top:3%;
+	color:#fff;
+}
+.left{
+	width:50%;
+	position:absolute;
+	}
+.right{
+	position:absolute;
+	width:300px;
+	left:45%;
+
+}
+.left .num1,.left .num2,.right .num1,.right .num2{
+	display:inline-block;
+	width:3.5em;
+	height:3.5em;
+	position:absolute;
+	background:#FF0;
+	border-radius:50%;
+	text-align:center;
+	line-height:3.5em;
+	font-size:40px;
+	font-weight:bold;
+	color:#fff;
+	top:10% ;
+	left:7%;
+}
+.left .num2,.right .num2{
+	top:40%;
+}
+.left .one,.right .one{
+	display:inline-block;
+	position:absolute;
+	left:20%;
+	top:12%;
+}
+.left .two,.right .two{
+	display:inline-block;
+	position:absolute;
+	left:20%;
+	top:43%;
+}
+.one .work-title a,.two .work-title a{
+	font-size:25px;
+	font-weight:bold;
+	color:#31774B;
+}
+.one .work-title a:hover,.two .work-title a:hover{
+	color:#FF0;
+}
+.one .explain a,.two .explain a{
+	display:inline-block;
+	font-size:20px;
+	font-weight:bold;
+	color:#fff;
+	margin-top:30px;
+}
+.more{
+	position:absolute;
+	top:88%;
+	left:50%;
+	margin-left:-3.5em;
+}
+.more a{
+	text-align:center;
+	color:#FF0;
+	font-size:1.5em;
+}
+.more a:hover{
+	color:#fff;
+}
+/*skills*/
+.skills{
+	background:#00FFB3;
+	text-align:center;
+}
+.skills .title{
+	padding-top:8%;
+}
+.skills p{
+	font-size:30px;
+	margin-top:3%;
+}
+.skills .skill-html{
+	margin-top:5%;
+}
+.skills p span{
+	color:#fff;
+	background:#FF0;
+	border-radius:5px;
+	display:inline-block;
+	padding:2px 5px;
+}
+
+#ajaxs{
+	background:#FF9;
+}
+/*myBackGround*/
+.myBackGround{
+	background:#00FFB3;
+	text-align:center;
+	color:#fff;
+}
+.myBackGround .title{
+	padding-top:8%;
+}
+.bg-expalin,.adward{
+	font-size:30px;
+	font-weight:bold;
+	margin-top:45px;
+	}
+
+.major,.adward-works{
+	font-size:25px;
+	margin-top:20px;
+}
+.adward{
+	margin-top:20px;
+}
+
+/*job*/
+.job{
+	background:#00FFB3;
+	text-align:center;
+	color:#fff;
+}
+.job .title{
+	padding-top:8%;
+}
+.find-job{
+	margin-top:30px;
+	font-size:25px;
+	font-weight:bold;
+}
+
+.study-experience{
+	margin-top:40px;
+	font-size:20px;
+	line-height:40px;
+}
+.study-experience a{
+	color:#FF0;
+	}
+
+.touch-me{
+	margin:10px 0;
+	font-size:20px;
+	font-weight:bold;
+	color:#FF0;
+}
+nav {
+	width:40px;
+	height:300px;
+	z-index:1000;
+	position:fixed;
+	left:95%;
+	top:50%;
+	margin-top:-150px;
+}
+
+nav .right-nav li{
+	width:12px;
+	height:12px;
+	border-radius:50%;
+	border:2px solid #063;
+	right:40px;
+	margin-top:20px;
+}
+nav  .active{
+	background:#FF0;
+}
+.left-nav{
+	position:fixed;
+	margin-top:-146px;
+	left:90%;
+	top:50%;
+}
+.left-nav li{
+	margin-top:17px;
+	font-weight:bold;
+	text-align:center;
+	padding:2px 5px;
+	background:#FF0;
+	color:#FFF;
+	visibility:hidden;
+}
+@media screen and (max-width: 768px){
+.home .myPic{
+	width:25%;
+	border:0.5em solid #CCFFEB;
+	margin-top:40%;
+}
+.home .myName{
+	font-size:3em;
+	margin-top:2%;
+}
+.home .motto{
+	font-size:1em;
+
+	margin-top:4%;
+}
+.home .myjob{
+	font-size:1em;
+	margin-top:3%;
+	}
+.home .email{
+	margin-top:40px;
+}
+/*works*/
+.title{
+	font-size:4em;
+	padding-top:10%;
+}
+.left{
+	width:90%;
+	top:10%;
+	}
+.right{
+	top:38%;
+	left:0%;
+}
+.left .num1,.left .num2,.right .num1,.right .num2{
+	display:inline-block;
+	width:3em;
+	height:3em;
+	position:absolute;
+	border-radius:50%;
+	text-align:center;
+	line-height:3em;
+	font-size:2em;
+	color:#fff;
+	top:10% ;
+	left:6%;
+}
+.left .num2,.right .num2{
+	top:25%;
+}
+.left .one,.right .one{
+	top:11%;
+	left:8em;
+}
+.left .two,.right .two{
+	left:8em;
+	top:26%;
+}
+.one .work-title a,.two .work-title a{
+	font-size:2em;
+	margin-top:0.5em;
+}
+
+.one .explain a,.two .explain a{
+	font-size:1.5em;
+	margin-top:0.8em;
+}
+.more{
+	top:80%;
+}
+/*skills*/
+.skills .title{
+	padding-top:35%;
+}
+.skills p{
+	font-size:2em;
+	margin-top:5%;
+}
+.skills .skill-html{
+	margin-top:8%;
+}
+.skills p span{
+	border-radius:0.2em;
+}
+#houqi{
+	display:block;
+	margin-top:5%;
+	width:30%;
+	text-align:center;
+	margin-left:35%;
+	
+}
+/*background*/
+.myBackGround .title{
+	padding-top:35%;
+}
+.bg-expalin,.adward{
+	font-size:2em;
+	font-weight:bold;
+	margin-top:2em;
+	}
+
+.major,.adward-works{
+	font-size:2em;
+	margin-top:1em;
+}
+.adward{
+	margin-top:1em;
+}
+/*job*/
+.job .title{
+	padding-top:35%;
+}
+.job .w3c{
+	display:block;
+	margin-bottom:-1.5em;
+}
+.find-job{
+	margin-top:2em;
+	font-size:2em;
+}
+
+.study-experience{
+	margin-top:3em;
+	font-size:1.5em;
+	line-height:2em;
+}
+
+.touch-me{
+	margin:1em 0;
+	font-size:1em;
+}
+.Jemail{
+	margin-top:1em;
+}
+nav{
+	display:none;
+}
+.arrow{
+	font-size:40px;
+	position:fixed;
+	top:90%;
+	left:50%;
+	margin-left:-20px;
+	transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-ms--transform:rotate(-90deg);
+	-o--transform:rotate(-90deg);
+	-webkit--transform:rotate(-90deg);
+	color:#fff;
+	animation: arrow ease 1.5s infinite;
+	-moz-animation: arrow ease 1.5s infinite;
+	-ms-animation: arrow ease 1.5s infinite;
+	-o-animation: arrow ease 1.5s infinite;
+	-webkit-animation: arrow ease 1.5s infinite;
+}
+@keyframes arrow{
+	0%{
+		top:90%;
+		opacity:1;
+		}
+	100%{
+		top:85%;
+		opacity:0;
+	}
+	}
+
+}
