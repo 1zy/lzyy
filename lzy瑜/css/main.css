@@ -252,9 +252,9 @@ nav  .active{
 }
 @media screen and (max-width: 768px){
 .home .myPic{
-	width:25%;
-	border:0.5em solid #CCFFEB;
+	width:10em;
 	margin-top:40%;
+	border:none;
 }
 .home .myName{
 	font-size:3em;

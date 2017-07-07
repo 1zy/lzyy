@@ -35,6 +35,7 @@ document.addEventListener('touchend',function(event){
 		      if(time>=4){
 			  time=4
 			  arrow.className=" "
+			  
 			  }else{
 			  arrow.className="arrow"  
 				  }
